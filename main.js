@@ -69,6 +69,6 @@ const fetchIssues = () => {
                               </div>`;
     }
     document.getElementById('allIssue').innerText = issues.length // count closed issue
-    document.getElementById('closedIssue').innerText = count // count all  issue
+    document.getElementById('closedIssue').innerText = count +  ' Closed Issue' // count all  issue
   }
 }
